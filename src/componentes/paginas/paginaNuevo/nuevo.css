@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre los elementos */
+  padding: 20px;
+  justify-content: center; /* Alineación horizontal de los elementos */
+}
+
+.producto {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 40px); /* Ajuste para 3 productos por fila, menos el espacio */
+  box-sizing: border-box;
+  min-width: 200px; /* Ancho mínimo de los productos */
+}
+
+@media (max-width: 800px) {
+  .producto {
+    flex: 1 1 calc(50% - 20px); /* 2 productos por fila en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 500px) {
+  .producto {
+    flex: 1 1 100%; /* 1 producto por fila en pantallas aún más pequeñas */
+  }
+}

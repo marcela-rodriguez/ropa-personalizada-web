@@ -1,0 +1,9 @@
+.imagen-producto {
+  width: 200px;
+  height: 200px;
+}
+
+.precio {
+  font-weight: bold; /* Establece el texto en negrilla */
+  font-size: 24px;
+}
