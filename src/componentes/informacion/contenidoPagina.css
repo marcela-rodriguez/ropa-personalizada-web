@@ -1,0 +1,45 @@
+.contenido-pagina {
+
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+}
+
+.contenido-pagina img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 #04030483;
+}
+
+.imagen {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid hsl(184, 81%, 22%);
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.informacion ul,
+.informacion li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+.text-footer {
+    background-color: #F4ECF7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}

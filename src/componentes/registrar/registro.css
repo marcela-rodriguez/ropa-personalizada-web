@@ -1,0 +1,104 @@
+.formato {
+    width: 100%;
+    max-width: 450px;
+    background-color: #F4ECF7;
+    padding: 20px 50px 60px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.formato h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #000000;
+    position: relative;
+}
+
+.formato h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #04bd7d;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.campos {
+    background-color: #ffffff;
+    margin: 15px 0;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #000000;
+}
+
+input::placeholder {
+    color: #000000
+}
+
+.campos i {
+    margin-left: 15px;
+    color: #04bd7d;
+}
+
+form p {
+    color: #000000;
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    color: #04bd7d;
+    margin-left: 5px;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: #04bd7d;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+
+.desactivar {
+    background-color: rgb(189, 188, 188) !important;
+}
+
+
+
+.saveButton {
+    width: 100%;
+    background-color: #04bd7d;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}

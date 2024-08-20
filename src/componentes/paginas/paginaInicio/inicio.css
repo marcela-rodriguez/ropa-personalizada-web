@@ -1,0 +1,56 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 0px;
+}
+
+.contenedor :hover {
+    border-color: #c78c19;
+    transform: scale(1.03);
+}
+
+.marca {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+
+}
+
+.imagen {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid hsl(184, 81%, 22%);
+}
+
+.descuento {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    text-shadow: 0 0 0.9em hsl(186, 78%, 33%);
+}
+
+.descuento:hover {
+    transform: scale(1.1);
+}
+
+
+
+.mision {
+    display: flex;
+    width: 100%;
+    background-color: #F4ECF7;
+}
+
+.mision p {
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
