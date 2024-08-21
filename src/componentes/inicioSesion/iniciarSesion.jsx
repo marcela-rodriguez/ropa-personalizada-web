@@ -1,15 +1,19 @@
 
 import React, { useState } from 'react';
-
+import { loginCliente } from '../../services/inicioSesion';
+import { useNavigate } from 'react-router-dom';
 
 
 
 const InicioSesion = () => {
     const [correo, setEmail] = useState('');
     const [contrasena, setPassword] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        loginCliente(correo, contrasena)
+        navigate("/nuevo")
 
     };
     return (

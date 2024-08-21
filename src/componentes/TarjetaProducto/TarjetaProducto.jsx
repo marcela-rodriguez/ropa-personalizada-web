@@ -15,6 +15,7 @@ function TarjetaProducto({ producto }) {
         <p>Color: {producto.color}</p>
         <p>Talla: {producto.talla}</p>
         <p className="precio">Precio: {producto.precio}</p>
+        <button className="saveButton" type="submit">Anadir Producto</button>
       </div>
     </div>
   );

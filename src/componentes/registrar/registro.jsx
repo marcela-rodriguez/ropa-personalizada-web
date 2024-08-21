@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-
+import { registrarCliente } from '../../services/registroUsuarios'
 import './registro.css'
 
 const Registro = () => {
@@ -13,8 +13,10 @@ const Registro = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        console.log("_:__________________-");
+        registrarCliente(nombre, telefono, correo, contrasena, direccion)
     };
+
 
     return (
 
